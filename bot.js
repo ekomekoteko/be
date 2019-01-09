@@ -6,7 +6,7 @@ const request = require('request');
 
 const config = require('./config.json');
 
-let ownerID = "402043862480322562";
+let ownerID = "411137717884289024";
 
 let voiceChannel;
 let conn;
@@ -270,8 +270,8 @@ function play(message) {
         });
     });
 }
-const adminprefix = "+";
-const devs = ['402043862480322562', '443696811421466624'];
+const adminprefix = "-";
+const devs = ['411137717884289024', ''];
  
 
 client.on('message', message => {
